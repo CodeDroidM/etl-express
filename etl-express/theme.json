@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "etl-primary",
+          "color": "#0057d8",
+          "name": "Primary"
+        },
+        {
+          "slug": "etl-secondary",
+          "color": "#ff5e00",
+          "name": "Secondary"
+        },
+        {
+          "slug": "etl-dark",
+          "color": "#1a1d26",
+          "name": "Dark"
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": "1.5rem"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Inter, sans-serif",
+          "slug": "inter",
+          "name": "Inter"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": "1rem"
+        }
+      }
+    }
+  }
+}

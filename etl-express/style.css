@@ -1,0 +1,44 @@
+/*
+Theme Name: ETL Express
+Theme URI: https://etl-express.example.com
+Template: yuki-cyber-blog
+Author: ETL Express Team
+Author URI: https://etl-express.example.com
+Description: Child theme for a SaaS marketing + WooCommerce site. Provides sales landing, login, and dashboard hand‑off to React.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: saas, ecommerce, woocommerce, block-patterns
+Text Domain: etl-express
+*/
+
+/* Reusable tokens */
+:root{
+  --etl-primary:#0057d8;
+  --etl-secondary:#ff5e00;
+  --etl-dark:#1a1d26;
+  --etl-radius:1rem;
+  --etl-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+/* Buttons + links */
+.wp-block-button__link,
+button,
+input[type="submit"]{
+  background:var(--etl-secondary);
+  border-radius:var(--etl-radius);
+  color:#fff;
+  border:0;
+  padding:.75em 1.5em;
+  transition:.2s all ease;
+}
+.wp-block-button__link:hover{opacity:.9}
+
+/* Card utility */
+.cardish{border-radius:var(--etl-radius);box-shadow:var(--etl-shadow);padding:1.5rem;background:#fff}
+
+/* Feature icon */
+.feature-icon{width:60px;height:60px;border-radius:50%;display:grid;place-items:center;background:var(--etl-secondary);color:#fff;font-size:1.5rem;margin-right:.75rem}
+
+/* Sticky header */
+.site-header{position:sticky;top:0;z-index:999;background:#fff;box-shadow:var(--etl-shadow)}
